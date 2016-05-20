@@ -1,0 +1,50 @@
+body{
+	background-color:#ebeae4;
+}
+.menu-list{
+	width: 83%;
+	margin:0 auto;
+}
+.menu-list li{
+	float: left;
+	width: 48%;
+	padding:4px;
+	margin-bottom:2%;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+.menu-list li:nth-child(odd){
+	margin-right: 4%;
+}
+.menu-list li h2{
+	font-size: 1.3rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+img{
+	display: block;
+	width: 100%;
+}
+.price{
+	font-size: 1.6rem;
+	color: rgb(255,0,0);
+}
+.share{
+	float: right;
+	margin-top: 12px;
+}
+.share-btn{
+	display: inline-block;
+	width: 18px;
+	height: 16px;
+	background:url("../img/share1.png") no-repeat;
+	background-size: 100%;
+}
+.c-btn{
+	display: inline-block;
+	width: 18px;
+	height: 16px;
+	background:url("../img/share2.png") no-repeat;
+	background-size: 100%;
+}
